@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/main-slider.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script> new WOW().init();</script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fonts/open-sans-condensed">
+
+    <title>Photographer Iren Antonova</title>
+</head>
+<body>
+	<!-- <div class="mouse-viewport"></div> -->
+	<div class="header" id="header">
+		<a href="" class="logotype">
+				<img src="images/logo.png" width="290" height="auto" class="logo-img">
+			</a>
+		<!-- <div class="nav-side"> -->
+			<div class="contacts">
+				<!-- <span class="contacts-name">Телефон  |  Viber  |  Telegram</span> -->
+				<span class="phone-number">+38(063)5480793</span>
+				<a href="" class="insta">
+					<img src="images/icons/instatext.svg" alt="instagram" width="30" height="30">
+				</a>
+				<a href="" class="fb">
+					<img src="images/icons/fb-square-icon.svg" alt="fb" width="30" height="30">
+				</a>
+			</div>
+			
+			<ul class="nav-menu">
+				<li>
+					<a href="#main-page">Главная</a>
+				</li>
+				<li>|</li>
+				<li>
+					<a href="#portfolio-page">Портфолио</a>
+				</li>
+				<li>|</li>
+				<li>
+					<a href="#service-page">Услуги и стоимость</a>
+				</li>
+				<!-- <li>|</li>
+				<li>
+					<a href="/">Акции</a>
+				</li>
+ -->				<li>|</li>
+				<li>
+					<a href="#footer">Контакты</a>
+				</li>
+			</ul>
+			<div class="burger hidden">
+				<div class="burger-line line-1"></div>
+				<div class="burger-line line-2"></div>
+				<div class="burger-line line-3"></div>
+			</div>
+
+		<!-- </div>	 -->
+	</div>
+	<section class="main-page" id="main-page">
+		<div class="main-wrap">
+			<div class="burger-menu hidden">
+       					<a href="">Главная</a>
+       					<a href="">Портфолио</a>
+       					<a href="">Услуги и стоимость</a>
+       					<!-- <a href="">Акции</a> -->
+       					<a href="">Контакты</a>
+       				</div>
+			<div id="block-for-slider">
+       			<div id="viewport">
+       				<div class="slide-desc"><span>Фотография</span><br><a href="">Перейти к портфолио</a></div>
+		            <ul id="slidewrapper">
+		                <li class="slide" data-value="Портрет"><img src="images/slider/portrait.jpg" alt="1" width="100%" height="auto" class="slide-img"></li>
+		                <li class="slide" data-value="Свадьба"><img src="images/slider/wedding.jpg" alt="2" width="100%" height="auto" class="slide-img"></li>
+		                <li class="slide" data-value="Love Story"><img src="images/slider/love-story.jpg" alt="3" width="100%" height="auto" class="slide-img"></li>
+		                <li class="slide" data-value="Беременность"><img src="images/slider/pregnancy.jpg" alt="4" width="100%" height="auto" class="slide-img"></li>
+		                <li class="slide" data-value="Семейная съёмка"><img src="images/slider/reportaige.jpg" alt="5" width="100%" height="auto" class="slide-img"></li>
+		                <li class="slide" data-value="Репортаж"><img src="images/slider/reportaige.jpg" alt="5" width="100%" height="auto" class="slide-img"></li>
+		            </ul>
+		                <div id="prev-next-btns">
+		                    <div id="prev-btn"><div class="slider-arrow prev"></div></div>
+		                    <div id="next-btn"><div class="slider-arrow next"></div></div>
+           			    </div>
+           			    <ul id="nav-btns">
+			                <li class="slide-nav-btn"></li>
+			                <li class="slide-nav-btn"></li>
+			                <li class="slide-nav-btn"></li>
+			                <li class="slide-nav-btn"></li>
+			                <li class="slide-nav-btn"></li>
+			                <li class="slide-nav-btn"></li>
+            			</ul>
+            			<!-- <div class="slide-desc">
+            				<span class="slide-title">Свадьба</span><br>
+            				<span class="slide-link">Посмотреть портфолио</span>
+            			</div> -->
+        		</div>
+   			 </div>
+		</div>
+	</section>
+	<section id="portfolio-page">
+		<!-- <div class="portfolio-background"><img src="images/questions/portfolio-background.jpg"></div> -->
+		<div class="page-title"><img src="images/icons/camera.svg" width="35px" height="35px">Портфолио</div>
+		<div class="portfolio-wrapper">
+			<div class="portfolio-section animate__animated animate__bounceInLeft wow" data-wow-duration="3s">
+				<img src="images/portfolio/placeholder.jpg">
+				<span class="portfolio-desc">Портрет</span>
+			</div>
+			<div class="portfolio-section animate__animated animate__fadeIn wow" data-wow-duration="3s">
+				<img src="images/portfolio/placeholder.jpg">
+				<span class="portfolio-desc">Свадьба</span>
+			</div>
+			<div class="portfolio-section animate__animated animate__bounceInRight wow" data-wow-duration="3s">
+				<img src="images/portfolio/placeholder.jpg">
+				<span class="portfolio-desc">Love Story</span>
+			</div>
+			<div class="portfolio-section animate__animated animate__bounce wow" data-wow-duration="2s">
+				<img src="images/portfolio/placeholder.jpg">
+				<span class="portfolio-desc">Беременность</span>
+			</div>
+			<div class="portfolio-section animate__animated animate__bounce wow" data-wow-duration="2s">
+				<img src="images/portfolio/placeholder.jpg">
+				<span class="portfolio-desc">Семейная</span>
+			</div>
+			<div class="portfolio-section animate__animated animate__rollIn wow" data-wow-duration="2s">
+				<img src="images/portfolio/placeholder.jpg">
+				<span class="portfolio-desc">Репортаж</span>
+			</div>
+		</div>
+	</section>
+	<section id="service-page">
+		<span class="page-title">УСЛУГИ И СТОИМОСТЬ</span>
+		<div class="services-wrapper">
+			<span class="service-title">Портрет</span>
+			<div class="service-block">
+				<img src="images/service-page/love-story-cut.jpg" width="200px" height="auto">
+				<div service-desc-container>
+				<ul class="service-desc"><span>Пакет базовый 1500грн</span>
+					<li>1 час съёмки</li>
+					<li>Все удачные фото обработанные в цветокоррекции и светокоррекции (около 200-250)</li>
+					<li>5 фото с ретушью (доп фото 50грн)</li>
+					<li>Помощь в позировании, выборе локации и подборе образа</li>
+					<li>При необходимости помощь с выбором визажиста, стилиста</li>
+				</ul>
+				</div>
+				<div service-desc-container>
+				<ul class="service-desc"><span>Пакет средний 2300грн</span>
+					<li>2 часа съёмки</li>
+					<li>Все удачные фото обработанные в цветокоррекции и светокоррекции (около 350-500)</li>
+					<li>10 фото с ретушью (доп фото 50грн)</li>
+					<li>Помощь в позировании, выборе локации и подборе образа</li>
+					<li>При необходимости помощь с выбором визажиста, стилиста</li>
+				</ul>
+				</div>
+				<div service-desc-container>
+				<ul class="service-desc"><span>Полный пакет 4700грн</span>
+					<li>1 час съёмки</li>
+					<li>Макияжь и причёска</li>
+					<li>1 образ на выбор</li>
+					<li>Аренда студии 1 час</li>
+					<li>Все удачные фото обработанные в цветокоррекции и светокоррекции (около 200-250)</li>
+					<li>10 фото с ретушью (доп фото 50грн)</li>
+					<li>10 распечатанных фото 15х21</li>
+				</ul>
+				</div>
+			</div>
+			<span class="service-title">Свадьба</span>
+			<div class="service-block">
+				<img src="images/service-page/love-story-cut.jpg" width="200px" height="auto">
+				<div service-desc-container>
+				<ul class="service-desc"><span>3 часа, 3600грн</span>
+					<li>1 фотограф</li>
+					<li>200-300 фото в авторской обработке</li>
+					<li>Запись фотографий на флеш носитель</li>
+					<li>10 фото обработанных с полной ретушью и коррекцией</li>
+				</ul>
+				</div>
+				<div service-desc-container>
+				<ul class="service-desc"><span>5 часов, 6200грн</span>
+					<li>1 фотограф</li>
+					<li>300-500 фото в авторской обработке</li>
+					<li>Запись фотографий на флеш носитель</li>
+					<li>15 фото обработанных с полной ретушью и коррекцией</li>
+					<li>15 распечатанных фото в формате 15х21</li>
+				</ul>
+				</div>
+				<div service-desc-container>
+				<ul class="service-desc"><span>Полный день, 10 часов, 13500грн</span>
+					<li>1 фотограф</li>
+					<li>1000-1500 фото в авторской обработке</li>
+					<li>Запись на флеш носитель</li>
+					<li>20 фото обработанных с полной ретушью и коррекцией</li>
+					<li>20 фото распечатанных в формате 15х21, или 50 фото распечатанных в формате 10х15</li>
+					<li>Отдача фото в красивой деревянной коробке</li>
+				</ul>
+				</div>
+				<div service-desc-container>
+				<ul class="service-desc"><span>Full пакет, до 12 часов, 21600грн</span>
+					<li>2 фотографа</li>
+					<li>1500-2000 фото в авторской обработке</li>
+					<li>Запись на флеш носитель</li>
+					<li>25 распечатанных фото обработанных с полной ретушью и коррекцией</li>
+					<li>Фотокнига 15х15</li>
+				</ul>
+				</div>
+			</div>
+			<span class="service-title">Love Story</span>
+			<div class="service-block">
+				<img src="images/service-page/love-story-cut.jpg" width="200px" height="auto">
+				<div service-desc-container>
+					<ul class="service-desc"><span>Пакет Базовый 1500грн</span>
+							<li>1 час съёмки</li>
+							<li>Все удачные фото обработанные в цветокоррекции и светокоррекции (около 200-250) </li>
+							<li>5 фото с ретушью (доп 1 фото = 50 грн)</li>
+							<li>Помощь в позировании, выборе локации и подборе образа</li>
+							<li>При необходимости, помощь с выбором визажиста, стилиста</li>
+						</ul>
+					</div>
+					<div service-desc-container>
+						<ul class="service-desc"><span>Пакет средний 2300грн</span>
+							<li>2 часа съёмки</li>
+							<li>Все удачные фото обработанные в цветокоррекции и светокоррекции (около 350-500)</li>
+							<li>10 фото с ретушью (доп фото 50 грн)</li>
+							<li>Помощь в позировании, выборе локации и подборе образа</li>
+							<li>При необходимости, помощь с выбором визажиста, стилиста</li>
+						</ul>
+					</div>
+					<div service-desc-container>
+						<ul class="service-desc"><span>Полный пакет 4500грн</span>
+							<li>1 час съёмки</li>
+							<li>Макияж и прическа</li>
+							<li>1 час аренды студии</li>
+							<li>Все удачные фото обработанные в цветокоррекции и светокоррекции (около 200-250)</li>
+							<li>10 фото с ретушью (доп фото 50 грн) </li>
+							<li>10 фото распечатанных 15х21</li>
+						</ul>
+					</div>
+			</div>
+			<span class="service-title">Беременность</span>
+			<div class="service-block">
+				<img src="images/service-page/love-story-cut.jpg" width="200px" height="auto">
+				<div service-desc-container>
+				<ul class="service-desc"><span>Пакет базовый 1500грн</span>
+					<li>1 час съёмки</li>
+					<li>Все удачные фото обработанные в цветокоррекции и светокоррекции (около 200-250)</li>
+					<li>5 фото с ретушью (доп фото 50грн)</li>
+					<li>Помощь в позировании, выборе локации и подборе образа</li>
+					<li>При необходимости помощь с выбором визажиста, стилиста</li>
+				</ul>
+				</div>
+				<div service-desc-container>
+				<ul class="service-desc"><span>Пакет средний 2300грн</span>
+					<li>2 часа съёмки</li>
+					<li>Все удачные фото обработанные в цветокоррекции и светокоррекции (около 350-500)</li>
+					<li>10 фото с ретушью (доп фото 50грн)</li>
+					<li>Помощь в позировании, выборе локации и подборе образа</li>
+					<li>При необходимости помощь с выбором визажиста, стилиста</li>
+				</ul>
+				</div>
+				<div service-desc-container>
+				<ul class="service-desc"><span>Полный пакет 4700грн</span>
+					<li>1 час съёмки</li>
+					<li>Макияжь и причёска</li>
+					<li>1 образ на выбор</li>
+					<li>Аренда студии 1 час</li>
+					<li>Все удачные фото обработанные в цветокоррекции и светокоррекции (около 200-250)</li>
+					<li>10 фото с ретушью (доп фото 50грн)</li>
+					<li>10 распечатанных фото 15х21</li>
+				</ul>
+			</div>
+			</div>
+			<span class="service-title">Семейная съёмка</span>
+			<div class="service-block">
+				<img src="images/service-page/love-story-cut.jpg" width="200px" height="auto">
+				<div service-desc-container>
+					<ul class="service-desc"><span>Пакет Базовый 1500грн</span>
+							<li>1 час съёмки</li>
+							<li>Все удачные фото обработанные в цветокоррекции и светокоррекции (около 200-250) </li>
+							<li>5 фото с ретушью (доп 1 фото = 50 грн)</li>
+							<li>Помощь в позировании, выборе локации и подборе образа</li>
+							<li>При необходимости, помощь с выбором визажиста, стилиста</li>
+						</ul>
+					</div>
+					<div service-desc-container>
+						<ul class="service-desc"><span>Пакет средний 2300грн</span>
+							<li>2 часа съёмки</li>
+							<li>Все удачные фото обработанные в цветокоррекции и светокоррекции (около 350-500)</li>
+							<li>10 фото с ретушью (доп фото 50 грн)</li>
+							<li>Помощь в позировании, выборе локации и подборе образа</li>
+							<li>При необходимости, помощь с выбором визажиста, стилиста</li>
+						</ul>
+					</div>
+					<div service-desc-container>
+						<ul class="service-desc"><span>Полный пакет 4500грн</span>
+							<li>1 час съёмки</li>
+							<li>Макияж и прическа</li>
+							<li>1 час аренды студии</li>
+							<li>Все удачные фото обработанные в цветокоррекции и светокоррекции (около 200-250)</li>
+							<li>10 фото с ретушью (доп фото 50 грн) </li>
+							<li>10 фото распечатанных 15х21</li>
+						</ul>
+					</div>
+			</div>
+			<span class="service-title">Репортаж</span>
+			<div class="service-block">
+				<img src="images/service-page/love-story-cut.jpg" width="200px" height="auto">
+				<div service-desc-container>
+					<ul class="service-desc"><span>1 час, 1200грн</span>
+							<li>1 час съёмки</li>
+							<li>Цветокоррекция и светокоррекция всех удачных фотографий</li>
+							<li>Все исходники по запросу</li>
+						</ul>
+					</div>
+					<div service-desc-container>
+						<ul class="service-desc"><span>2 часа, 2000</span>
+							<li>2 часа съёмки</li>
+							<li>Цветокоррекция и светокоррекция всех удачных фотографий</li>
+							<li>Все исходники по запросу</li>
+						</ul>
+					</div>
+					<div service-desc-container>
+						<ul class="service-desc"><span>3 часа, 2800грн</span>
+							<li>3 часа съёмки</li>
+							<li>Цветокоррекция и светокоррекция всех удачных фотографий</li>
+							<li>Все исходники по запросу</li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	</section>
+	<section class="contacts-page"></section>
+	<section class="footer" id="footer">
+		<!-- <img src="images/questions/footer-background.jpg" width="100%" height="auto" class="footer-background"> -->
+		<div class="footer-wrapper">
+			<div class="footer-portfolio footer-column">
+				<h3><a href="#portfolio-page">Портфолио</h3>
+				<ul>
+					<li><a href="">Портрет</a></li>
+					<li><a>Свадьба</a></li>
+					<li><a>Love story</a></li>
+					<li><a>Беременность</a></li>
+					<li><a>Семейная</a></li>
+					<li><a>Репортаж</a></li>
+				</ul>
+			</div>
+			<div class="footer-services footer-column">
+				<h3><a href="#service-page">Услуги и стоимость</a></h3>
+				<ul>
+					<li><a>Портретная съёмка</a></li>
+					<li><a>Свадебная съёмка</a></li>
+					<li><a>Love story</a></li>
+					<li><a>Беременность</a></li>
+					<li><a>Семейная съёмка</a></li>
+					<li><a>Репортаж</a></li>
+				</ul>
+			</div>
+			<div class="footer-contacts footer-column">
+				<h3>Контакты</h3>
+				<ul>
+					<li>Телефон/Viber/Telegram +38(093)548-07-93</li>
+					<li>Email: placeholder@gmail.com</li>
+					<li>
+						<a href="" class="insta">
+							<img src="images/icons/instatext.svg" alt="instagram" width="auto" height="30">
+							<span>Instagram</span>
+						</a>
+					</li>
+					<li>
+						<a href="" class="fb">
+							<img src="images/icons/fb-square-icon.svg" alt="fb" width="30" height="30"> <span>Facebook</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</body>
